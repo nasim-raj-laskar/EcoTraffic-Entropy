@@ -151,9 +151,6 @@ Where S represents traffic entropy, and α, β, γ are calibration parameters.
 - **Traffic Efficiency Score**: Normalized entropy-based metric (0-100 scale)
 
 ---
-=
-
-
 
 ## Applications
 
