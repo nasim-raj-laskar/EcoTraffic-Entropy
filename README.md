@@ -1,4 +1,5 @@
-# EcoTraffic: Vision-Based Traffic Flow Entropy Estimator
+# EcoTraffic: 
+> Vision-Based Traffic Flow Entropy Estimator
 
 ## Abstract
 
@@ -150,17 +151,7 @@ Where S represents traffic entropy, and α, β, γ are calibration parameters.
 - **Traffic Efficiency Score**: Normalized entropy-based metric (0-100 scale)
 
 ---
-
-## Research Contributions
-
-### Primary Deliverables
-- **Real-Time Entropy Metrics**: Continuous traffic efficiency quantification with sub-second latency
-- **Spatiotemporal Visualization**: Dynamic heatmap generation for traffic disorder identification
-- **Predictive Analytics**: Statistical correlation models between entropy and environmental impact
-- **Smart City Integration**: Scalable deployment framework for urban traffic management systems
-
-
----
+=
 
 
 
