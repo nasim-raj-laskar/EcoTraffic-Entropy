@@ -1,4 +1,4 @@
-# EcoTraffic: 
+# EcoTraffic
 > Vision-Based Traffic Flow Entropy Estimator
 
 ## Abstract
