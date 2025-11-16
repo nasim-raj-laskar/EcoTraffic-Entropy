@@ -132,12 +132,12 @@ This captures the intuition that congestion increases both disorder and wasted k
 ```mermaid
 flowchart TD
     A[Video Input] --> B[Object Detection]
-    B --> C[State Estimation (Kalman)]
+    B --> C[State Estimation Kalman]
     C --> D[Velocity Extraction]
     D --> E[Velocity Distribution Model]
-    E --> F[Entropy Computation S(t)]
-    D --> G[Kinetic Energy E(t)]
-    G --> H[Variance σ_E²(t)]
+    E --> F[Entropy Computation St]
+    D --> G[Kinetic Energy Et]
+    G --> H[Variance σ_E²t]
     F --> I[Eco-Dynamic Estimation]
     H --> I
     I --> J[Frame Metrics CSV]
