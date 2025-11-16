@@ -204,8 +204,8 @@ The correlation analysis yielded:
 
 $$
 \begin{aligned}
-\rho_{\text{Pearson}}  &= -0.0151,[4pt]
-\rho_{\text{Spearman}} &= -0.0407.
+\rho_{\text{Pearson}}= -0.0151,
+\rho_{\text{Spearman}}= -0.0407.
 \end{aligned}
 $$
 
@@ -219,8 +219,8 @@ $$
 
 $$
 \begin{aligned}
-F_{\text{entropy}} &= 2.4889,\quad p = 0.1149,[4pt]
-F_{\text{CO}_2}    &= 2.0452,\quad p = 0.1529.
+F_{\text{entropy}}= 2.4889,\quad p = 0.1149,
+F_{\text{CO}_2}= 2.0452,\quad p = 0.1529.
 \end{aligned}
 $$
 
@@ -234,8 +234,8 @@ $$
 
 $$
 \begin{aligned}
-p_{\text{entropy}} &= 0.6577,
-p_{\text{CO}_2}    &= 0.0003.
+p_{\text{entropy}}= 0.6577,
+p_{\text{CO}_2}= 0.0003.
 \end{aligned}
 $$
 
