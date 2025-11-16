@@ -200,6 +200,7 @@ Non-parametric pairwise test:
 $$
 U = \min(U_1, U_2)
 $$
+
 Used for robust comparisons of:
 
 * Entropy
