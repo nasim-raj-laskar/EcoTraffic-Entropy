@@ -1,4 +1,13 @@
-# **EcoTraffic**
+# [**EcoTraffic**](scripts/final.ipynb)
+
+![YOLOv8](https://img.shields.io/badge/YOLOv8-Object%20Detection-orange)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-red?logo=opencv)
+![Kalman Filter](https://img.shields.io/badge/Tracking-Kalman%20Filter-9cf)
+![Entropy Modeling](https://img.shields.io/badge/Entropy-Information%20Theory-lightgrey)
+![Kinetic Variance](https://img.shields.io/badge/Kinetic%20Energy-Variance-brightgreen)
+![Eco Dynamics](https://img.shields.io/badge/Eco--Dynamics-CO2%20Proxy-success)
+![Automotive Analytics](https://img.shields.io/badge/Automotive-Traffic%20Flow-blue)
+![Environment](https://img.shields.io/badge/Environmental-Analytics-green)
 
 > *A Spatiotemporal Entropy & Eco-Dynamics Estimation Framework Using Computer Vision*
 
@@ -193,11 +202,16 @@ Exported to [**frame_metrics.csv**](output/frame_metrics.csv):
 
 The correlation analysis yielded 
 
-$\rho_{\text{Pearson}} = -0.0151$ 
-and 
-$\rho_{\text{Spearman}} = -0.0407$, 
+$$
+\begin{aligned}
+\rho_{\text{Pearson}}  &= -0.0151,\\[4pt]
+\rho_{\text{Spearman}} &= -0.0407.
+\end{aligned}
+$$
 
-indicating no linear or monotonic relationship between entropy and the CO2 proxy.
+$$
+\text{Both correlations indicate no linear or monotonic relationship between entropy and the CO}_2 \text{ proxy.}
+$$
 
 
 ### **2. ANOVA Across Segments**
@@ -209,6 +223,10 @@ F_{\text{CO}_2}    &= 2.0452,\quad p = 0.1529.
 \end{aligned}
 $$
 
+$$
+\text{Neither metric shows statistically significant differences across temporal segments.}
+$$
+
 
 
 ### **3. Mann-Whitney U Tests**
@@ -217,6 +235,11 @@ $$
 p_{\text{entropy}} &= 0.6577,\\[4pt]
 p_{\text{CO}_2}    &= 0.0003.
 \end{aligned}
+$$
+
+
+$$
+\text{Entropy shows no significant difference, while the CO}_2 \text{ proxy exhibits a strong segment-level difference.}
 $$
 ---
 
@@ -228,45 +251,33 @@ $$
 
 → Shows bounding boxes, track IDs, entropy, σE², efficiency, CO₂.
 
-```
-[PLACEHOLDER: Insert GIF or thumbnail of output video]
-```
+![](output/ss.png)
 
 ---
 
 ### **2. Entropy Time-Series Plot**
 
-```
-[PLACEHOLDER: entropy_timeseries.png]
-```
+![](output/entropy_timeseries.png)
 
 ### **3. CO₂ Estimate Time-Series Plot**
 
-```
-[PLACEHOLDER: co2_timeseries.png]
-```
-
+![](output/co2_timeseries.png)
 ### **4. Kinetic Energy Variance Plot**
 
-```
-[PLACEHOLDER: sigmaE2_timeseries.png]
-```
+![](output/sigma_timeseries.png)
 
 ### **5. Efficiency Plot**
 
-```
-[PLACEHOLDER: efficiency_timeseries.png]
-```
+![](output\efficiency_timeseries.png)
 
 ---
 
-# **📁 Dataset & Logs**
+# **📁 Logs**
 
 All numerical results are saved into:
 
-```
-frame_metrics.csv
-```
+[frame_metrics.csv](output/frame_metrics.csv)
+
 
 This CSV is the **primary dataset** for downstream analytics and environmental insights.
 
